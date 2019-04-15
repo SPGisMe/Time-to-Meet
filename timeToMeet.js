@@ -1,5 +1,5 @@
 function timeToMeet(v1, v2, start) {
-    const goal = start / (v2 - v1);
+    const goal = start / (v2 - v1); //simple time = distance/velocity calc
     
     if (goal <= 0){return null}
     
